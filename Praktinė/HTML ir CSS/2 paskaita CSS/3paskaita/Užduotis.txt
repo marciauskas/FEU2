@@ -1,0 +1,12 @@
+Sukurti puslapį su tvarkinga puslapio struktūra:
+  1) Header - Jo viduje turėti logotipą ir menu.
+  2) Content - Naudojant Section+Div arba Main+Article+Div arba dar kokią nors kombinaciją sukurti tris sekcijas:
+    2.1) Home - Apie ką pats puslapis labai trumpai. Vienas kitas neilgas sakinys ir galbūt paveiksliukas.
+    2.2) About - Šiek tiek išsiplėsti apie puslapį arba priklausomai nuo temos aprašyti kokį nors vieną ar kelis dalykus. Galima kelti nuorodas, paveiksliukus, tekstus, sąrašus ir pns. Turi būti nemažai informacijos.
+    2.3) Contact - Sukurti formą su keliais laukais įrašyti informaciją (tarsi siūsti atsiliepimą) arba įkelti nuotraukas su asmenų kontaktine informacija po jomis. (ale puslapio kūrėjų/valdytojų kontaktai. fake info žodžiu)
+  3) Footer - Mažų mažiausiai turi būti copyrights. Galima pridėti nuorodas į rėmėjų/partnerių puslapius, terms and services, privacy policy. Socialinių tinklų nuorodos...
+
+Puslapiui temą galima susigalvoti.
+Jeigu nepavyksta sugalvoti temos - galima daryti apie CodeAcademy.
+Menu turi nukreipti vartotoją į atitinkamas puslapio dalis.
+Viską reikia stilizuoti kiek išeina gražiau (kažko ko dar nesimokinome internete ieškotis ir naudoti tikrai nereikia (bet galima)).

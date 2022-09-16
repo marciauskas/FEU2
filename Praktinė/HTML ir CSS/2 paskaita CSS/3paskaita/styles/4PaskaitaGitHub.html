@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./4 Paskaita.css">
+    <link rel="icon" href=".//logo-social.png"> <!--Tab'o ikona-->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Position</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="position"> <!--Position-->
+            <h1>Position</h1>
+            <ul>
+                <li>Static - Statine</li>
+                <li>Relative - Reliatyvioji</li>
+                <li>Absolute - Absoliucioji</li>
+                <li>Fixed - Fiksuotoji</li>
+                <li>Sticky - Lipnioji</li>
+            </ul>
+            <p>
+                Naudojant bet kuria apart Statines pozicijos, gauname prieiga prie 4 nauju stiliu: top, left, right, buttom,<br>Top, left,right, bottomstiliai nurodo per koki atstuma elementas turi buti atitrauktas.<br> Z-index stilius nurodo elemento prioriteta sluoksniuose(esant persidengimui, kuris elementas bus virsuje/apacioje)
+            </p>
+            <p>
+                Statine pozicija - nieko ypatingo nedaro. Net nesuteikia galimybes naudoti top/left/right/bottom
+            </p>
+            <div class="KvadratuKonteineris">
+                <div class="kvadratas statinis">Static 1</div>
+                <div class="kvadratas statinis top_20">Static</div>
+                <div class="kvadratas statinis">Static 3</div>
+                <div class="kvadratas statinis">Static 4</div>
+            </div>
+            <p>Realiatyviojo pozicija - nieko ypatingo edaro, bet suteikia galimybe naudoti top/left/ right/bottom/ z-index.<br>Elementui suteikus top/left/right/bottom stilius, jisai atsitraukia per nurodyta atstuma, nuo savo pradines pozicijos.
+            </p>
+            <div class="KvadratuKonteineris">
+                <div class="kvadratas static top_20">Static 1</div>
+                <div class="kvadratas reliatyvus top_20 right_40">Relative2</div>
+                <div class="kvadratas reliatyvus left_30 z_index">Relative3</div>
+                <div class="kvadratas reliatyvus">Relative 4</div>
+            </div>
+            <p>
+                Absoliucioji pozicija - Elementas iseina is puslapio tekmes.<br>Elementui suteikus top/left/right/bottom,stilius, jisai atsitraukia per nurodyta atstuma, nuo artimiausio tevinio/senelinio/prosenelio elemento, kuris turi reliatyviaja pozicija(jeigu - atsitraukia nuo htm'o(ekrano krastu))
+            </p>
+            <<div class="KvadratuKonteineris reliatyvus">
+                <div class="kvadratas statinis">Static 1</div>
+                <div class="kvadratas statinis top_20">Static</div>
+                <div class="kvadratas statinis">Static 3</div>
+                <div class="kvadratas statinis">Static 4</div>
+                <p>
+                    Fiksuotoji pozicija-Elementas išeina is puslapio tekmes ir fiksuojasi nurodytoje arba savo pradineje pozicijo.Taip pat, jeigu nera nustatytas elemento dydis - elementas sumazeja iki minimalaus dydzio.<br>
+                </p>
+                <div class="KvadratuKonteineris">
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis top_20">Static2</div>
+                    <div class="kvadratas fixed z-index_10">Fixed 3</div>
+                    <div class="kvadratas statinis">Static 4</div>
+                    <p>
+                        Lipnioji pozicija - Neišeina iš puslapio tekmes.Ekrano  krastamas prieartejus prie jo - jis prilimpa prie ekrano krasto nurodyta top/right/bottom/left atstuma ir juda kartu su ekranu kol nepasiekia savo tevinio elemento ribu.<div class="KvadratuKonteineris">
+                            <div class="kvadratas statinis">Static 1</div>
+                            <div class="kvadratas statinis top_20">Static2</div>
+                            <div class="kvadratas fixed z-index_10">Fixed 3</div>
+                            <div class="kvadratas statinis">Static 4</div><div class="KvadratuKonteineris">
+                                <div class="kvadratas statinis">Static 1</div>
+                                <div class="kvadratas statinis top_20">Static2</div>
+                                <div class="kvadratas fixed z-index_10">Fixed 3</div>
+                                <div class="kvadratas statinis">Static 4</div>
+                    </p>
+                    <div class="KvadratuKonteineris reliatyvus stickyKonteineris">
+                        <div class="kvadratas statinis">Static 1</div><div class="KvadratuKonteineris">
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis top_20">Static2</div>
+                    <div class="kvadratas fixed z-index_10">Fixed 3</div>
+                    <div class="kvadratas statinis">Static 4</div>
+                        <div class="kvadratas statinis">Static2</div>
+                        <div class="kvadratas statinis">Static 3</div>
+                        <div class="kvadratas sticky top_20 ">Sticky 4</div>
+
+        </section>
+        <div style="height: ;500px">
+
+        </div>
+    </main>
+</body>
+</html>

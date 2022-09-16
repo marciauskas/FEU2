@@ -1,0 +1,13 @@
+.MelynasTekstas{
+    color: blue;
+}
+.ŽaliasTekstas PabrauktasTekstas{
+    color: green;
+}
+.PabrauktasTekstas{
+    text-decoration: underline;
+}
+.PasviresTekstas{
+    font-style: italic;
+}
+

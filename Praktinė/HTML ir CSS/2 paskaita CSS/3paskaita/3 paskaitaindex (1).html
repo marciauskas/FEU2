@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+  <meta charset="UTF-8">
+  <title>3 paskaita</title>
+  <link rel="stylesheet" href="3PaskaitaCSS.CSS">
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers msdt:dt="string">FEU2 Members</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers>
+<mso:SharedWithUsers msdt:dt="string">7;#FEU2 Members</mso:SharedWithUsers>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body id="home">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#failuKeliai">Failų keliai</a>
+        </li>
+        <li>
+          <a href="#puslapioStruktura">Puslapio Struktura</a>
+        </li>
+        <li>
+          <a href="#menuInfo">Menu Info</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="" id="failuKeliai"> <!-- failų keliai -->
+    <h1>Failų kelių nurodymai</h1>
+    <img src="images/sneakyFox.jpg">
+    <p>
+      Nurodant aplankalo vardą - nueinama į nurodytą aplankalą.
+    </p>
+    <p>
+      Norint atlikti sekantį veiksmą - reikia parašyti " / ".
+    </p>
+    <img src="../1%20paskaita%20-%2009.12%20-%20HTML%20įvadas/potato.jpg">
+    <p>
+      Norint žengti žingsnį atgal iš aplankalo - reikia parašyti " .. ".
+    </p>
+  </div>
+  <div id="puslapioStruktura"> <!-- Puslapio struktūra -->
+    <h1><a href="https://www.internetingishard.com/html-and-css/semantic-html/" target="_blank">Puslapio struktūra</a></h1>
+    <ul>
+      <li>header - puslapio viršus, kuriame nurodoma informacija apie puslapį / menu</li>
+      <li>nav - skirtas kuri puslapio menu</li>
+      <li>section - didžiulė puslapio dalis</li>
+      <li>div - maža puslapio dalis</li>
+      <li>main - pagrindinė puslapio dalis</li>
+      <li>article - main viduje esanti sekcija</li>
+      <li>aside - šoninė puslapio sekcija</li>
+      <li>footer - puslapio apačia, kurioje yra įvairi informacija kaip: terms and uses; privacy policy; copyrights; links; partners...</li>
+    </ul>
+    <img src="images/mountains-under-mist-morning-amazing-260nw-1725825019.webp" class="strukturosIMG">
+    <img src="images/mountains-under-mist-morning-amazing-260nw-1725825019.webp" class="strukturosIMG">
+  </div>
+  <div id="menuInfo"> <!-- Menu info -->
+    <h1>Menu info</h1>
+    <p>
+      Kuriant menu - naudojamas nav tag'as, kurio viduje yra rikiuotas/nerikiuotas sąrašas(ol/ul). To sąrašo elementų (li) viduje yra nuorodos tag'as (a), kuris nurodo į kažkurią puslapio dalį arba kitą puslapį.
+    </p>
+    <p>
+      Nuorodos tag'o (a) atidaromojoje dalyje esantis atributas href nurodo į kur vartotojas turi būti nukeltas paspaudus ant nuorodos.
+    </p>
+    <p>
+      Jeigu href atributas nurodo į kažkokį ID (href="#ID_pavadinimas"), tuomet vartotojas yra nukeliamas į puslapio dalį, kuriai yra suteiktas nurodytas ID (id="ID_pavadinimas").<br>Pvz.: <a href="#home">Puslapio viršus</a>
+    </p>
+    <p>
+      Jeigu href atributas nurodo į kitą html failą (href="./aplankalas/failas.html"), tuomet vartotojas yra nukeliamas į nurodytą html failą.<br>Pvz.: <a href="pages/random.html">Kitas puslapis</a>
+    </p>
+  </div>
+</body>
+</html>

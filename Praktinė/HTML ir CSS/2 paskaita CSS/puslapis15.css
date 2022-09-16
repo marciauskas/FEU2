@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: beige;
+}
+.logoImg{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
+}
+.inlineBlockDisplay{
+    display: inline-block;
+}
+.menuListItem{
+    display: inline-block;
+}
+.menuDiv{
+    margin-left: 500px;
+    float: right;
+}

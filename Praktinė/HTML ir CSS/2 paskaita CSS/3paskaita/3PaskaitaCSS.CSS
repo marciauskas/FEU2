@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+.nerodyti{
+  display: none;
+}
+.StrukturosIMG{
+    width: auto;height: 300px;
+}
+.blokinis{
+    display: block;
+}
+.linijinis{
+    display: inline;
+}
+.kvadratas{
+    height: 100px;
+    width:  100px;
+    background-color: blue;
+    border: 3px dashed red;
+
+}

@@ -1,0 +1,3 @@
+.monoSpace{
+    color:blue
+}

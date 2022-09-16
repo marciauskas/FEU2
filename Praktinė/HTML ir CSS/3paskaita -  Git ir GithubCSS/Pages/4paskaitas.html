@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4 paskaita - 09.15</title>
+  <link rel="stylesheet" href="..//Styles/4Paskaita.css">
+  <link rel="icon" href="../Images/logo-social.png"> <!-- tab'o ikona-->
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#position">Position</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="position"> <!-- Position -->
+      <h1>Position</h1>
+      <ul>
+        <li>Static - Statinė</li>
+        <li>Relative - Reliatyvioji</li>
+        <li>Absolute - Absoliučioji</li>
+        <li>Fixed - Fiksuotoji</li>
+        <li>Sticky - Lipnioji</li>
+      </ul>
+      <p>
+        Naudojant bet kurią apart Statinės pozicijos, gauname prieigą prie 5 naujų stilių: top, left, right, bottom ir z-index.<br> Top, left, right, bottom stiliai nurodo per kokį atstumą elementas turi būti atitrauktas.<br> Z-index stilius nurodo elemento prioritetą sluoksniuose (esant persidengimui, kuris elementas bus viršuje/apačioje)
+      </p>
+      <p>
+        Statinė pozicija - nieko įpatingo nedaro. Net nesuteikia galimybės naudoti top/left/right/bottom/z-index.
+      </p>
+      <div class="kvadratuKonteineris">
+        <div class="kvadratas statinis">Static 1</div>
+        <div class="kvadratas statinis top_20">Static 2</div>
+        <div class="kvadratas statinis">Static 3</div>
+        <div class="kvadratas statinis">Static 4</div>
+      </div>
+      <p>
+        Reliatyvioji pozicija - nieko įpatingo nedaro. Bet suteikia galimybę naudoti top/left/right/bottom/z-index.<br>Elementui suteikus top/left/right/bottom stilius, jisai atsitraukia per nurodytą atstumą, nuo savo pradinės pozicijos.
+      </p>
+      <div class="kvadratuKonteineris">
+        <div class="kvadratas static top_20">Static 1</div>
+        <div class="kvadratas reliatyvus top_20 right_40 ">Relative 2</div>
+        <div class="kvadratas reliatyvus left_30 z_index">Relative 3</div>
+        <div class="kvadratas reliatyvus">Relative 4</div>
+      </div>
+      <p>
+        Absoliučioji pozicija - elementas išeina iš puslapio tekmės.<br> Elementui suteikus top/left/right/bottom stilius, jisai atsitraukia per nurodytą atstumą, nuo artimiausio tėvinio/senelinio/prosenelinio elemento, kuris turi, kokią nors poziciją apart static (jeigu neranda - atsitraukia nuo html'o (ekrano kraštų)).
+      </p>
+      <div class="kvadratuKonteineris reliatyvus">
+        <div class="kvadratas statinis">Static 1</div>
+        <div class="kvadratas statinis">Static 2</div>
+        <div class="kvadratas absolute top_20">Absolute 3</div>
+        <div class="kvadratas statinis">Static 4</div>
+      </div>
+      <p>
+        Fiksuotoji pozicija - elementas išeina iš puslapio tekmės ir fiksuojasi nurodytoje arba savo pradinėje pozicijoje. Taip pat, jeigu nėra nustatytas elemento dydis - elementas sumažėja iki minimalaus dydžio.<br> Elementui suteikus top/left/right/bottom stilius, jisai atsitraukia per nurodytą atstumą, nuo ekrano kraštų (html elemento).
+      </p>
+      <div class="kvadratuKonteineris reliatyvus">
+        <div class="kvadratas statinis">Static 1</div>
+        <div class="kvadratas statinis">Static 2</div>
+        <div class="kvadratas fixed top_20 z_index_10">Fixed 3</div>
+        <div class="kvadratas statinis">Static 4</div>
+      </div>
+      <p>
+        Lipnioji pozicija - neišeina iš puslapio tekmės. Ekrano kraštams priartėjus prie jo - jis prilimpa prie ekrano krašto per nurodytą top/right/bottom/left atstumą ir juda kartu su ekranu kol nepasiekia savo tėvinio elemento ribų.
+      </p>
+      <div class="kvadratuKonteineris stickyKonteineris">
+        <div class="kvadratas statinis">Static 1</div>
+        <div class="kvadratas statinis">Static 2</div>
+        <div class="kvadratas statinis">Static 3</div>
+        <div class="kvadratas sticky top_20 right_40">Sticky 4</div>
+      </div>
+      <section>   
+      </section> <!--git gihub-->
+      <div> <!--comand line/terminal-->
+        <h1>Terminalo komandos</h1>
+        <ul>
+          <li>cd - change directory- pakeisti direktorija - vaiksciojimas tarp aplankalu</li>
+          <li>ls(LS) - list files and directories- isvardinti failus ir aplankalus</li>
+          <li>Ctrl C - atsaukia vykdoma veiksma</li>
+          <li>TAB - uzbaigia fraze arba pateikia pasiulymus</li>
+          <li>CLEAR - nukelia visa terminale rodoma informacija i virsu</li>
+        </ul>
+      </div>
+      <div> <!--git config-->
+        <h1>Git Config</h1>
+        <p>
+          git config --global user.name ''Tavo vardas''<br>
+          git config --global user.email 'pastassukuriuojungeisi'<br>
+          git config --global core.editor 'code' <br>
+          git config --global core.autocrlf true<br>
+          git config --global -e atidarys ir parodys info per editoriu<br>
+        </p>
+        <div>
+        </div> <!--git komandos-->
+        <h1>Git komandos</h1>
+        <ul>
+          <li>Init - initial - inicializuoti - sukuria repozitorija</li>l
+          <li> status - statusas - pateikia informacija apie tavo failis esamoje repozitorijoje</li>
+          <li>ad stage'ina/prideti/paruosti - failus comintiti</li>
+          <li>comit - sukuria kodo versija is stage'intu failai </li>
+        </ul>
+      </div>
+    <div style="height:1500px"></div>
+  </main>
+</body>
+</html>

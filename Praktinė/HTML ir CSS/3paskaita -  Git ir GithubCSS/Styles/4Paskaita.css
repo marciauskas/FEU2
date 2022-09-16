@@ -1,0 +1,50 @@
+.kvadratas{
+  display: inline-block;
+  background-color: aquamarine;
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 22px;
+}
+.kvadratuKonteineris{
+  background-color: beige;
+}
+.stickyKonteineris{
+  height: 300px;
+}
+.statinis{
+  position: static;
+}
+.reliatyvus{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.fixed{
+  position: fixed;
+}
+.sticky{
+  position: sticky;
+}
+
+.top_20{
+  top: 20px;
+}
+.left_30{
+  left: 30px;
+}
+.right_40{
+  right: 40px;
+}
+.bottom_50{
+  bottom: 50px;
+}
+.z_index{
+  z-index: 1;
+}
+.z_index_10{
+  z-index: 10;
+}

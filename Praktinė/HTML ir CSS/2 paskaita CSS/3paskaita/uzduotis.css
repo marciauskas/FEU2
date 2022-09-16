@@ -1,0 +1,45 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+header{
+  background-color: beige;
+  height: 50px;
+}
+
+.logoImg{
+  margin: 5px 20px;
+  /* margin-top: 5px;
+  margin-left: 20px; */
+  width: auto;
+  height: 40px;
+}
+
+.inlineBlockDisplay{
+  display: inline-block;
+}
+
+.menuListItem{
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.noDecor{
+  text-decoration: none;
+}
+.noDecor:hover{
+  color: green;
+}
+
+.menuDiv{
+  width: 30%;
+  float: right;
+}
+.menuList{
+  padding: 0;
+}
+.CentruotasTekstas{
+  text-align: center;
+}
+.linijinisBlokinis kvadratas{
+  display: inline;
+}
